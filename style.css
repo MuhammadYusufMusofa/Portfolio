@@ -1,0 +1,87 @@
+.nav-custom, 
+.jumbotron,
+#about,
+#projects{
+    background-color: #000;
+}
+#skills,
+#project-bg,
+#contacts{
+    background-color: #fff;
+}
+.skill-custom img{
+    width: 80%;
+}
+.footer-custom img{
+    width: 180%;
+}
+.rounded-circle img-thumbnail{
+  background-color: #000;
+}
+.contact{
+  color: 000;
+}
+.image{
+  filter: brightness(20) contrast(-15);
+}
+.icons,
+.icons1, 
+.icons2, 
+.icons3, 
+.icons4,
+.iconsA,
+.iconsB,
+.iconsC,
+.iconsD{
+  font-size: 135%;
+  text-align: center;
+  text-align-last: center;
+  border-radius: 20px;
+  color: #B6B6B6;
+  padding: 5px;
+  margin: 20px 0px;
+}
+.iconsA,.iconsB,.iconsC,.iconsD{
+  color: #414141;
+  font-size: 25px;
+}
+.icons2:hover{
+  color: #661FFF;
+}
+.icons3:hover{
+  color: #02FF6B;
+}
+.icons4:hover{
+  color: #FF1F1F;
+}
+.iconsA:hover{
+  color: #2A3CFF;
+}
+.iconsB:hover{
+  color: #2AB4FF;
+}
+.iconsC:hover{
+  color: #5C2AFF;
+}
+.iconsD:hover{
+  color: #000;
+}
+
+/*responsive element*/
+@media screen and (max-width: 450px){}
+@media screen and (max-width: 575px){
+  .skill-custom img {
+    width: 50%;
+    }
+  .footer-custom img {
+    width: 150%;
+  }
+}
+@media screen and (max-width: 800px){
+  .skill-custom img {
+    width: 50%;
+    }
+  .footer-custom img {
+    width: 150%;
+  }
+}
